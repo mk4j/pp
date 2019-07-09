@@ -12,7 +12,7 @@ public class FlatWatcher
     static String kom = "https://www.avito.ru/sankt-peterburg/kvartiry/sdam/na_dlitelnyy_srok?user=1&s_trg=4&metro=168";
 
     public static void main(String[] args) throws IOException, InterruptedException{
-        Watcher komWatcher = new Watcher(kom);
+        //Watcher komWatcher = new Watcher(kom);
 
 
         ApiContextInitializer.init();
@@ -23,7 +23,7 @@ public class FlatWatcher
             e.printStackTrace();
         }
 
-        komWatcher.monitor();
+        //komWatcher.monitor();
 
 
 
